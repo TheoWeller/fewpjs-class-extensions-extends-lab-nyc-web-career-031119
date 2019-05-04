@@ -5,8 +5,7 @@ class Polygon {
   }
 
 get count() {
-
-  return this.array
+  return this.array.length
 }
 
 get perimeter(){
