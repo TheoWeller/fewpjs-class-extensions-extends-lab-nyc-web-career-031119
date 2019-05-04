@@ -4,7 +4,7 @@ class Polygon {
     this.array = array;
   }
 
-get count() {
+get getCount() {
   return this.array.length
 }
 
