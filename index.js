@@ -23,7 +23,7 @@ class Square extends Polygon {
   }
 
   get area() {
-    let result = this.array.perimeter / 4
-    return this.getCount === 4 && result % 4 === 0 ? true : false;
+
+    return this.array[1] * this.array[2];
   }
 }
