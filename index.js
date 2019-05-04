@@ -16,3 +16,14 @@ class Triangle extends Polygon {
     return this.getCount === 3 ? true : false;
   }
 }
+
+class Square extends Polygon {
+  get isValid() {
+    let result = this.array.perimeter / 4
+    return this.getCount === 4 && result % 4 === 0 ? true : false;
+  }
+
+  get area() {
+    
+  }
+}
