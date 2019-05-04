@@ -23,7 +23,6 @@ class Square extends Polygon {
   }
 
   get area() {
-
     return this.array[1] * this.array[2];
   }
 }
