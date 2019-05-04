@@ -8,5 +8,9 @@ get count() {
   return this.array.length
 }
 
+get perimeter(){
+  return this.array.reduce((a, b) => a + b, 0)
+}
+
 
 }
