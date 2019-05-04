@@ -5,8 +5,8 @@ class Polygon {
   }
 
 get count() {
-  let length =  this.array.length;
-  return length;
+
+  return this.array
 }
 
 get perimeter(){
