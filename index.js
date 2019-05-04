@@ -13,6 +13,7 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid(){
-    return this.getCount === 3 ? true : false;
+    let result = this.getCount === 3 ? true : false;
+    return result;
   }
 }
